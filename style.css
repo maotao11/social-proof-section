@@ -1,0 +1,163 @@
+.attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+body{
+  margin-top: 70px;
+  padding: 5px;
+  min-height: 100vh;
+  line-height: 1;
+  font-size: 15px;
+   display: grid;
+ place-items: center;
+ font-family: spartan;
+}
+.bg-image{
+position: relative;
+margin-top: -140px;
+margin-left: -30px;
+}
+.promo{
+text-align: center;
+}
+.promo h1{
+color: hsl(300, 43%, 22%);
+font-weight: 700;
+font-size: 35px;
+}
+.promo p{
+    color:  hsl(303, 10%, 53%);
+    line-height: 1.7;
+}
+/* Bellow is the container for the star boxes*/
+.container{
+display: flex;
+flex-direction: column;
+}
+.container div{
+margin: 10px;
+padding: 20px;
+border: 1px hidden;
+border-radius:7%;
+background-color:  hsl(300, 24%, 96%);
+text-align: center;
+width: 280px;
+align-self: center;
+font-weight: 700;
+color: hsl(300, 61%, 31%);
+font-size: 16px;
+}
+/* Bellow is the container for the quote boxes*/
+.container2{
+display: flex;
+flex-direction: column;
+color: white;
+width: 350px;
+}
+.container2 img{
+border-radius: 50%;
+transform: scale(0.6);
+}
+.head-quote{
+display: flex;
+}
+.status{
+    padding: 10px;
+line-height: 0.6;
+margin-top: 5px;
+font-weight: 700;
+}
+.verified{
+color:  hsl(333, 80%, 67%);
+font-weight: 400;
+opacity: 0.9;
+}
+.quote-block{
+     background-color: hsl(300, 43%, 22%);
+     border-radius: 3%;
+ padding: 10px;
+ margin: 10px;
+}
+.quote{
+padding: 10px;
+font-weight: 400;
+opacity: 0.8;
+line-height: 1.5;
+}
+
+/* Bellow is the code for the desktop view*/
+@media only screen and (min-width: 1440px){
+.desktop-flip{
+    display: flex;
+}
+body{
+margin: 100px;
+}
+.bg-image{
+position: relative;
+margin-top: -120px;
+}
+.promo h1{
+width: 500px;
+margin-left: 2%;
+font-size: 55px;
+text-align: left;
+}
+.promo p{
+width: 70%;
+font-size: 20px;
+margin-left: 3%;
+text-align: left;
+}
+.review{
+height: 25px;
+display: flex;
+align-items: flex-end;
+}
+.rated{
+margin-bottom:5px ;
+margin-left: 10px;
+}
+.review img{
+height: 90%;
+margin: 5px;
+}
+.container div{
+width: 452px;
+margin: 20px;
+}
+.container2{
+    flex-direction: row;
+    width: 100%; 
+}
+
+/* Bellow is the code that moves up and down the irene and anne boxes*/
+.n2{
+margin-top: 25px;
+margin-bottom: -25px;
+}
+.n3{
+margin-top: 50px;
+margin-bottom: -50px;
+}
+
+/* Bellow is the code that moves left and right the star boxes*/
+div.alpha{
+margin-left: -100px;
+margin-bottom: -5px;
+}
+div.beta{
+margin-left: -50px;
+margin-bottom: -5px;  
+}
+
+.attribution{
+margin-bottom: -220px;
+}
+.bg-image{
+margin-left: 100px;
+ }
+}
